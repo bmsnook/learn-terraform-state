@@ -8,3 +8,7 @@ variable "aws_profile" {
   type    = string
   default = "default"
 }
+
+variable "credential_file" {
+  type = string
+}
